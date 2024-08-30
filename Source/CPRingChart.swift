@@ -146,7 +146,7 @@ extension CPRingChart {
             pieCharts[i].trackBackgroundColor = .clear
             pieCharts[i].progress = percentVals[i]
             pieCharts[i].trackWidth = self.ringWidth
-            pieCharts[i].roundedCap = true
+            pieCharts[i].roundedCap = roundedCap
             pieCharts[i].centerFillColor = self.centerFillColor
             pieCharts[i].backgroundColor = .clear
             if i > 0 {
